@@ -1,0 +1,11 @@
+# data (too large for GitHub, patient data)
+*.mat
+*.rar
+# caches / intermediate files
+hg_full.npy
+repro_config*.json
+repro_nested.json
+*.log
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
