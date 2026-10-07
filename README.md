@@ -17,7 +17,7 @@ Data: `ECoG_Handpose.mat` (one subject, 60-electrode 6x10 high-density grid, 5 m
 
 ## Data
 The recording is **not** in this repository (123 MB, above GitHub's 100 MB file limit, and it is patient data).
-Place `ECoG_Handpose.mat` (from `ecog-hand-pose.rar`) in the repository root; it is git-ignored.
+
 
 ## Setup
 `pip install -r requirements.txt`
