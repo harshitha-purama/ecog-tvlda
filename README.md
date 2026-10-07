@@ -22,11 +22,6 @@ The recording is **not** in this repository (123 MB, above GitHub's 100 MB file 
 ## Setup
 `pip install -r requirements.txt`
 
-## Run
-Outputs go to `results/` and `figures/`. Put `ECoG_Handpose.mat` in this folder, then
-`python exp0_reproduce.py config 0; python exp0_reproduce.py config 1; python exp0_reproduce.py config 2; python exp0_reproduce.py nested; python exp0_reproduce.py summary; python exp0b_10mm.py`, then
-`python exp1_decimation.py && python exp1b_lmp_fusion.py && python exp2_glove.py && python make_figures.py`
-(needs numpy, scipy, scikit-learn, matplotlib; runs in a few minutes on a laptop).
 
 ## Results (10 repeats of stratified 10-fold CV; NF = best of 1-3 PCA components, as in the paper)
 
